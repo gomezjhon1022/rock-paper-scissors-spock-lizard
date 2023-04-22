@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}

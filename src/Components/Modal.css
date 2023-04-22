@@ -1,0 +1,30 @@
+.ModalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 100vh;
+}
+.Title {
+  height: 5%;
+}
+.ModalBackground {
+  width: 75%;
+  height: 60%;
+  margin: 5px;
+  background-image: url(../../images/image-rules-bonus.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ModalButton {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  background-image: url(../../images/icon-close.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
