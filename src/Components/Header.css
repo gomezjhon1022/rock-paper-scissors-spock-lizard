@@ -1,7 +1,40 @@
+.header__container {
+  height: 400px;
+  width: 100wh;
+  text-align: center;
+  padding: 30px;
+}
 .header {
   display: flex;
   flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+  border: solid rgba(94,111,137,255) 2px;
+  border-radius: 10px;
+  color: white;
 }
+
+.header-left {
+  margin-left: 35px;
+  text-align: start;
+  line-height:18px;
+}
+
+.header-right {
+  margin-right: 35px;
+  background-color: #fbfbfb;
+  color:#514f63;
+  padding: 15px 35px 5px;
+  border-radius: 15px;
+}
+
+.header-right-score {
+  font-size: 60px;
+}
+
+
 
 img {
   width: 20px;
