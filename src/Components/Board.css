@@ -1,0 +1,93 @@
+.board_container {
+height: 60%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.board {
+  height: 70%;
+  width: 70%;
+  background-image: url(../../images/bg-pentagon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  position:absolute;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.scissors {
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 20px solid #eda419;
+  background-image: url(../../images/icon-scissors.svg);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.spock {
+  left: 50%;
+  transform: translate(-260px,75px);
+  border: 20px solid #4fbcd1  ;
+  background-image: url(../../images/icon-spock.svg);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paper {
+  right: 50%;
+  transform: translate(260px,75px);
+  border: 20px solid #5573f5;
+  background-image: url(../../images/icon-paper.svg);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lizard {
+  left: 50%;
+  transform: translate(-200px,295px);
+  border: 20px solid #8d59ea;
+  background-image: url(../../images/icon-lizard.svg);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.rock {
+  right: 50%;
+  transform: translate(200px,295px);
+  border: 20px solid #db3854 ;
+  background-image: url(../../images/icon-rock.svg);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rules {
+  position: absolute;
+  height: 45px;
+  width: 150px;
+  bottom: 45px;
+  right: 45px;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
