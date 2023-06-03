@@ -1,13 +1,10 @@
 import "./Header.css";
 import {Modal} from "./Modal";
-import React, {useState} from 'react';
+import React from 'react';
 
-function Header (){
+function Header ({isOpenModal, setOpenModal, score}){
 
-  const [isOpenModal, setOpenModal] = useState("true");
-  const [score, setScore] =useState(0);
 
-  React.useEffect(() => console.log("se actualiza open modal"), [isOpenModal]);
   return (
     <>
       {!isOpenModal &&(<div className="header__container">
@@ -23,9 +20,6 @@ function Header (){
         </div>
         )
       }
-
-      
-
 
       {isOpenModal && <Modal setOpenModal={setOpenModal} isOpenModal={isOpenModal}>
 

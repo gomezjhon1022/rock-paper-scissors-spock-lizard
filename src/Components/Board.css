@@ -85,6 +85,7 @@ align-items: center;
   border: 2px solid white;
   border-radius: 8px;
   color: white;
+  background-color: rgba(24,33,66,255) ;
   font-weight: bold;
   display: flex;
   align-items: center;
