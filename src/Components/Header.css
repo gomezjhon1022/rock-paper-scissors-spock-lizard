@@ -1,7 +1,8 @@
 .header__container {
   height: 240px;
   width: 100wh;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 30px;
 }
 .header {
@@ -11,6 +12,7 @@
   align-items: center;
   height: 180px;
   width: 100%;
+  max-width: 800px;
   border: solid rgba(94,111,137,255) 2px;
   border-radius: 10px;
   color: white;
