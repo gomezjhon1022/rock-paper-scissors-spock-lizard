@@ -63,6 +63,14 @@ align-items: center;
   background-color: rgba(24,33,66,255);
 }
 
+
+.circle_picked_random_chose {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+}
+
 .scissors {
   left: 50%;
   transform: translate(-50%,-50%);

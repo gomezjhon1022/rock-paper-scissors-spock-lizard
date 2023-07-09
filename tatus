@@ -1,0 +1,41 @@
+[33mcommit fbd00f974e2d9d247a1fd9a85f38f3d3224cc196[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Jhon Gomez <jhonjairogomez92@gmail.com>
+Date:   Sat Jun 3 21:06:49 2023 -0500
+
+    Add election
+
+[33mcommit 4475d8e51626ea21de640d2370a809fdc1a11fe8[m
+Author: Jhon Gomez <jhonjairogomez92@gmail.com>
+Date:   Fri Jun 2 20:28:21 2023 -0500
+
+    Fix interface
+
+[33mcommit 5d294a124b686a291d6522f305808399a086fbd6[m
+Author: Jhon Gomez <jhonjairogomez92@gmail.com>
+Date:   Mon May 1 14:28:13 2023 -0500
+
+    Add Board
+
+[33mcommit 38484b31061aa2f2173192da2f057cee8443dcc5[m
+Author: Jhon Gomez <jhonjairogomez92@gmail.com>
+Date:   Mon May 1 11:14:19 2023 -0500
+
+    Add header
+
+[33mcommit 025fc2660f79199d28c8cbec2b15f4f2641d2b9e[m
+Author: Jhon Gomez <jhonjairogomez92@gmail.com>
+Date:   Fri Apr 21 20:04:59 2023 -0500
+
+    Add Modal
+
+[33mcommit 7df0312450eb0b684a908fb99066b87d957a6fbb[m
+Author: Jhon Gomez <jhonjairogomez92@gmail.com>
+Date:   Mon Nov 28 18:24:34 2022 -0500
+
+    Initial
+
+[33mcommit 8e4782f92f770465a0a8bf49a7f3b06f38a7f435[m
+Author: Jhon Gomez <jhonjairogomez92@gmail.com>
+Date:   Mon Nov 28 18:07:53 2022 -0500
+
+    Initialize project using Create React App
