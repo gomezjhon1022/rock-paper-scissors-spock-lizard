@@ -60,7 +60,7 @@ function playAgain() {
           </div>
           <div className="options_container">
             <div className={`circle-picked ${player1}`}></div>
-            {isDraw&&<div className="button_winner">
+            {!isDraw&&<div className="button_winner">
             <p>DRAW</p>
             <button className="button_play_again"onClick={()=>playAgain()}>PLAY AGAIN</button>
             </div>}

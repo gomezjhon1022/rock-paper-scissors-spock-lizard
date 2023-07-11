@@ -15,14 +15,17 @@ function App() {
   const [isDraw, setIsDraw] = useState("false");
 
   useEffect(()=>{
-    setTimeout(()=>{
-      if (player1 === player2) {
-        setIsDraw(!isDraw)}
-      else if ((player1==="rock-picked"&& player2==="scissors-picked")||(player1==="scissors-picked"&& player2==="paper-picked")||(player1==="paper-picked"&& player2==="rock-picked")||(player1==="paper-picked"&& player2==="spock-picked")||(player1==="spock-picked"&& player2==="scissors-picked")||(player1==="scissors-picked"&& player2==="lizard-picked")||(player1==="lizard-picked"&& player2==="spock-picked")||(player1==="spock-picked"&& player2==="rock-picked")||(player1==="rock-picked"&& player2==="lizard-picked")||(player1==="lizard-picked"&& player2==="paper-picked")) {setPlayer1IsWinner(!player1IsWinner);setScore(score+1)
+    if (player1!=="") {
+      setTimeout(()=>{
+        if (player1 === player2) {
+          setIsDraw(!isDraw)}
+        else if ((player1==="rock-picked"&& player2==="scissors-picked")||(player1==="scissors-picked"&& player2==="paper-picked")||(player1==="paper-picked"&& player2==="rock-picked")||(player1==="paper-picked"&& player2==="spock-picked")||(player1==="spock-picked"&& player2==="scissors-picked")||(player1==="scissors-picked"&& player2==="lizard-picked")||(player1==="lizard-picked"&& player2==="spock-picked")||(player1==="spock-picked"&& player2==="rock-picked")||(player1==="rock-picked"&& player2==="lizard-picked")||(player1==="lizard-picked"&& player2==="paper-picked")) {setPlayer1IsWinner(!player1IsWinner);setScore(score+1)
+        }
+        else {setPlayer2IsWinner(!player2IsWinner)}
+        console.log("se esta ejecutando el settime out ojo con esto")
       }
-      else {setPlayer2IsWinner(!player2IsWinner)}
-
-    },1000)
+      ,1000)
+    }
   },[player2])
 
   return (
