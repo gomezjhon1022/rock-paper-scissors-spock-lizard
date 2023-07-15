@@ -1,5 +1,5 @@
 import "./Header.css";
-import {Modal} from "./Modal";
+import {Modal} from "../Modal";
 import React from 'react';
 
 function Header ({isOpenModal, setOpenModal, score}){

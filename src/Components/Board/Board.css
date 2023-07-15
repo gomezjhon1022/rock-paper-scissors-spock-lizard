@@ -19,6 +19,7 @@ align-items: center;
 .board_election {
   width: 70%;
   height: 100%;
+  z-index: 8;
 }
 
 .title_election_container {
@@ -31,6 +32,7 @@ align-items: center;
   color: white;
   font-size: 20px;
   margin: 50px 0;
+  z-index: 8;
 }
 
 .options_container {
@@ -53,6 +55,7 @@ align-items: center;
   height: 250px;
   border-radius: 50%;
   background-color: white;
+  z-index: 8;
 }
 
 
@@ -69,6 +72,7 @@ align-items: center;
   height: 250px;
   border-radius: 50%;
   background-color: white;
+  z-index: 8;
 }
 
 .button_draw {
@@ -89,6 +93,7 @@ align-items: center;
   color: white;
   font-size: 36px;
   font-weight: bold;
+  z-index: 8;
 }
 
 .button_play_again {
@@ -98,7 +103,25 @@ align-items: center;
   padding: 15px 35px;
   border-radius: 15px;
   cursor: pointer;
+  z-index: 8;
 }
+
+.container_player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.selected_winner {
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  position: absolute;
+  background:radial-gradient(#2b3654 43%, #253050 43% 57%, #1f2c4e 57%);
+  z-index: 5;
+}
+
 
 .scissors {
   left: 50%;

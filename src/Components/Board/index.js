@@ -59,7 +59,10 @@ function playAgain() {
             <div className="title_election">THE HOUSE PICKED</div>
           </div>
           <div className="options_container">
-            <div className={`circle-picked ${player1}`}></div>
+            <div className="container_player">
+              <div className={`circle-picked ${player1}`}></div>
+              {!player1IsWinner&&<div className="selected_winner"></div>}
+            </div>
             {!isDraw&&<div className="button_winner">
             <p>DRAW</p>
             <button className="button_play_again"onClick={()=>playAgain()}>PLAY AGAIN</button>
@@ -73,7 +76,11 @@ function playAgain() {
               <button className="button_play_again" onClick={()=>playAgain()}>PLAY AGAIN</button>
             </div>}
             {player2Chose&&<div className={`circle_picked_random ${player2}`}></div>}
-            {!player2Chose&&<div className={`circle_picked_random_chose ${player2}`}></div>}
+            {!player2Chose&&<div className="container_player">
+            <div className={`circle_picked_random_chose ${player2}`}></div>
+            {!player2IsWinner&&<div className="selected_winner"></div>}
+            </div>
+            }
           </div>
         </div>
       </div>
