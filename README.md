@@ -1,5 +1,70 @@
 # Frontend Mentor - Rock, Paper, Scissors
 
+This project was created thanks to the resources provided by Frontend Mentor (frontendmentor.io), a website that offers challenges for frontend developers. Frontend Mentor offers a wide range of design challenges that help developers enhance their skills by building real-world projects. The platform provides design files and detailed specifications for each challenge, allowing developers to practice and showcase their abilities in HTML, CSS, and JavaScript. The project's completion is a result of leveraging the valuable resources and support provided by Frontend Mentor.
+
+This is a React JS project that emulates the classic game of "Rock, Paper, Scissors" but with an additional twist: now you can play with the "Lizard" and "Spock" options too!
+
+The game is fully interactive and allows users to select an option from the five available choices: Rock, Paper, Scissors, Lizard, or Spock. The player then competes against the computer, which randomly selects an option. The game determines the winner based on the rules of the original "Rock, Paper, Scissors" game, as well as the additional rules for the new "Lizard" and "Spock" options.
+
+## Technologies Used
+
+The project has been developed using the following technologies:
+
+- React JS: a JavaScript framework for building interactive user interfaces.
+- HTML and CSS: for the structure and styling of the game.
+- JavaScript: for the game logic and user interaction.
+
+## Prerequisites
+
+Make sure you have Node.js installed on your system before running the project. You can download and install it from https://nodejs.org.
+
+## Project Setup
+
+Follow the steps below to set up the project in your local environment:
+
+- Clone the project repository from GitHub:
+- bash
+- Copy code
+- git clone https://github.com/your-username/rock-paper-scissors-lizard-spock.git
+- Navigate to the project directory:
+- bash
+- Copy code
+- cd rock-paper-scissors-lizard-spock
+- Install the project dependencies:
+- Copy code
+- npm install
+- Start the application:
+- sql
+- Copy code
+- npm start
+- Open your web browser and visit http://localhost:3000 to play the game.
+
+## How to Play
+
+Once the game is loaded in your browser, you'll see the available options: Rock, Paper, Scissors, Lizard, and Spock.
+
+Click on the option you want to choose.
+
+The computer will randomly select an option.
+
+The game will determine the winner based on the rules. A message will be displayed on the screen indicating whether you won, lost, or it's a tie.
+
+You can play again by clicking the "Play Again" button.
+
+## Customizing the Game
+
+If you want to customize the game or add new features, you can explore the source code located in the src folder. Here you'll find the React components used to build the game, as well as the game logic in the GameLogic.js file.
+
+Feel free to modify the code according to your needs and experiment with new ideas.
+
+Contributions
+Contributions are welcome! If you want to improve this project, you can submit your proposals through issues or pull requests on the GitHub repository.
+
+License
+This project is licensed under the MIT License, which means you can use it for free, even for commercial purposes. However, it is provided without any warranty.
+
+# Original README
+
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
@@ -110,10 +175,5 @@ We provide templates to help you share your solution once you've submitted it on
 
 The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
 
-## Got feedback for us?
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+_______________________________________________________________________
