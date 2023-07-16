@@ -1,6 +1,6 @@
 .header__container {
   height: 25vh;
-  width: 100wh;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 30px;
@@ -30,7 +30,7 @@
   margin-right: 35px;
   background-color: #fbfbfb;
   color:#514f63;
-  padding: 15px 35px 5px;
+  padding: 5px 35px 5px;
   border-radius: 15px;
   z-index: 8;
 }
