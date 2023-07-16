@@ -41,7 +41,7 @@ img {
   height: 20px;
 }
 
-@media (max-width: 1210px) {
+@media (max-width: 1280px) {
   /* Estilos que se aplicarán cuando el ancho de la pantalla sea menor a 1200px */
   .header__container {
     height: 160px;
