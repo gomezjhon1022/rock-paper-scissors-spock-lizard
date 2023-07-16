@@ -1,5 +1,5 @@
 .header__container {
-  height: 240px;
+  height: 220px;
   width: 100wh;
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@ img {
   height: 20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1210px) {
   /* Estilos que se aplicarán cuando el ancho de la pantalla sea menor a 1200px */
   .header__container {
     height: 160px;
