@@ -22,19 +22,16 @@ Make sure you have Node.js installed on your system before running the project. 
 
 Follow the steps below to set up the project in your local environment:
 
-- Clone the project repository from GitHub:
-- bash
+- Clone the project repository from GitHub: bash
 - Copy code
-- git clone https://github.com/your-username/rock-paper-scissors-lizard-spock.git
-- Navigate to the project directory:
-- bash
+- git clone https://github.com/gomezjhon1022/rock-paper-scissors-lizard-spock.git
+- Navigate to the project directory: bash
 - Copy code
 - cd rock-paper-scissors-lizard-spock
 - Install the project dependencies:
 - Copy code
 - npm install
-- Start the application:
-- sql
+- Start the application: sql
 - Copy code
 - npm start
 - Open your web browser and visit http://localhost:3000 to play the game.
@@ -57,7 +54,7 @@ If you want to customize the game or add new features, you can explore the sourc
 
 Feel free to modify the code according to your needs and experiment with new ideas.
 
-Contributions
+## Contributions
 Contributions are welcome! If you want to improve this project, you can submit your proposals through issues or pull requests on the GitHub repository.
 
 License
