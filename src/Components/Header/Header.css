@@ -23,6 +23,7 @@
   margin-left: 35px;
   text-align: start;
   line-height:18px;
+  z-index: 8;
 }
 
 .header-right {
@@ -31,10 +32,11 @@
   color:#514f63;
   padding: 15px 35px 5px;
   border-radius: 15px;
+  z-index: 8;
 }
 
 .header-right-score {
-  font-size: 60px;
+  font-size: 30px;
 }
 
 img {
