@@ -36,9 +36,35 @@
   font-size: 60px;
 }
 
-
-
 img {
   width: 20px;
   height: 20px;
+}
+
+@media (max-width: 1200px) {
+  /* Estilos que se aplicarán cuando el ancho de la pantalla sea menor a 1200px */
+  .header__container {
+    height: 160px;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .header {
+    height: 100%;
+    width: 100%;
+  }
+  .header-right {
+    margin-right: 35px;
+    background-color: #fbfbfb;
+    color:#514f63;
+    padding: 15px 35px 5px;
+    border-radius: 15px;
+    height: 80%;
+  }
+
+  .header-right-score {
+    font-size: 30px;
+  }
 }

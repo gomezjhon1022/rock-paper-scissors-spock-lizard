@@ -1,5 +1,5 @@
 .board_container {
-height: 60%;
+height: 60vh;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -179,7 +179,7 @@ align-items: center;
 
 .lizard {
   left: 50%;
-  transform: translate(-200px,295px);
+  transform: translate(-200px,255px);
   border: 20px solid #8d59ea;
   background-image: url(../../images/icon-lizard.svg);
   background-size:50%;
@@ -197,7 +197,7 @@ align-items: center;
 
 .rock {
   right: 50%;
-  transform: translate(200px,295px);
+  transform: translate(200px,255px);
   border: 20px solid #db3854 ;
   background-image: url(../../images/icon-rock.svg);
   background-size:50%;
@@ -228,4 +228,36 @@ align-items: center;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  /* Estilos que se aplicarán cuando el ancho de la pantalla sea menor a 1200px */
+  .board_container {
+    height: 60vh;
+    width: 100%;
+    }
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+  .scissors {
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .spock {
+    left: 50%;
+    transform: translate(-170px,55px);
+  }
+  .paper {
+    right: 50%;
+    transform: translate(170px,55px);
+  }
+  .lizard {
+    left: 50%;
+    transform: translate(-140px,195px);
+  }
+  .rock {
+    right: 50%;
+    transform: translate(140px,195px);
+  }
 }
