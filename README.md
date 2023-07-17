@@ -6,6 +6,11 @@ This is a React JS project that emulates the classic game of "Rock, Paper, Sciss
 
 The game is fully interactive and allows users to select an option from the five available choices: Rock, Paper, Scissors, Lizard, or Spock. The player then competes against the computer, which randomly selects an option. The game determines the winner based on the rules of the original "Rock, Paper, Scissors" game, as well as the additional rules for the new "Lizard" and "Spock" options.
 
+
+The deployment is in the following link:
+
+https://gomezjhon1022.github.io/rock-paper-scissors-spock-lizard/
+
 ## Technologies Used
 
 The project has been developed using the following technologies:
